@@ -20,14 +20,13 @@ language.onclick = () => {
 }
 
 // sizin ucun bizim ucun altindaki xett
-let lis = document.querySelectorAll('.containers-big .first-ul li')
-
-for(let li of lis){
-  li.onclick = () =>{
-    let f_bebore = document.querySelector('.first-ul-before')
-    f_bebore.classList.remove('first-ul-before')
-    li.classList.add('first-ul-before')
-  }
+let f_clc = document.querySelectorAll('.first-ul li')
+for(let li of f_clc){
+ li.onclick = () => {
+  let activ1 = document.querySelector('.activ1')
+  activ1.classList.remove('activ1')
+  li.classList.add('activ1')
+ }
 }
 
 // haqqimizda onlayn novbe umumi melumatlar mousu ustune getirende bas veren prosesler
@@ -224,6 +223,7 @@ function startSlider() {
   sliderInterval = setInterval(NextSlide, 2000);
 }
 startSlider(); 
+
 function stopSlider() {
   clearInterval(sliderInterval);
 }

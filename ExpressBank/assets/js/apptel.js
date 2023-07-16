@@ -16,6 +16,16 @@ language_tel.onclick = function(){
  }
 }
 
+let f_clc_tel = document.querySelectorAll('.first-ul-tel li')
+
+for(let li of f_clc_tel){
+  li.onclick = () => {
+    let activ1_tel = document.querySelector('.activ1-tel')
+    activ1_tel.classList.remove('activ1-tel')
+    li.classList.add('activ1-tel')
+  }
+}
+
 let img1 = document.querySelector('.containers-tel .img1')
 let img2 = document.querySelector('.containers-tel .img2')
 
@@ -78,21 +88,75 @@ slidernexts.onclick = () =>{
 sliderbacks.onclick = () => {
   BackSlides();
 }
-function startSliders() {
-  sliderInterval = setInterval(NextSlides, 2000);
+setInterval(NextSlides, 2000);
+
+
+// telofon tab menu
+let tab_buttons_tel = document.querySelectorAll('.tab-button-tel button')
+for(let tabs of tab_buttons_tel){
+  tabs.onclick = () =>{
+    let tbs_tel = document.querySelector('.tab-buttons-tel')
+    tbs_tel.classList.remove('tab-buttons-tel')
+    tabs.classList.add('tab-buttons-tel')
+     
+    let id  = tabs.id
+    let div = document.querySelectorAll('.tbst')
+    for(let frst of div){
+      if(frst.id===id){
+        frst.classList.remove('d-none')
+      }else{
+        frst.classList.add('d-none')
+      }
+    }
+  }
 }
-startSliders(); 
-function stopSliders() {
-  clearInterval(sliderInterval);
+
+// telefon calculyatoru
+
+let calc_buttons_tel = document.querySelectorAll('.calc-button-tel button')
+for(let calc of calc_buttons_tel){
+  calc.onclick = () =>{
+    let clcs = document.querySelector('.calc-buttons-tel')
+    clcs.classList.remove('calc-buttons-tel')
+    calc.classList.add('calc-buttons-tel')
+     
+
+
+    let id = calc.id
+    let div = document.querySelectorAll('.banks-tel')
+    for(let scnd of div){
+      if(scnd.id===id){
+        scnd.classList.remove('d-none')
+      }else{
+        scnd.classList.add('d-none')
+      }
+    }
+  }
 }
-slider_alls.onmouseover = () => {
-  stopSliders();
+
+
+
+function calculates() {
+  let a = parseFloat(document.getElementById('range7').value)
+  let b = parseFloat(document.getElementById('range8').value)
+  let c = parseFloat(document.getElementById('range9').value)
+
+  num=(a*c)/100
+  num1=a+num;
+  num3=(num1/b).toFixed(2)
+
+  document.querySelector('.bank-show-tel .bank-show-months-tel').innerHTML = num3;
+  document.querySelector('.bank-show-tel .bank-show-alls-tel').innerHTML = num1;
+}
+function update1() {
+  document.querySelector('.inp8 .value8').innerHTML = document.getElementById('range7').value;
+  calculates();
 }
 
-slider_alls.onmouseout = () => {
-  startSliders(); 
+function update2() {
+  document.querySelector('.inp9 .value9').innerHTML = document.getElementById("range8").value;
+  calculates();
 }
 
-
-
-
+document.querySelector('.inp8').addEventListener("input", update1);
+document.querySelector('.inp9').addEventListener("input", update2);
