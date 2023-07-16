@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+   list-style: none;
+}
+.container-footer{
+    line-height: 1.5;
+    padding-left: 230px;
+    padding-right: 280px;
+}
+.container-main{
+        line-height: 1.5;
+        padding-left: 250px;
+        padding-right: 250px;
+}
+
+@font-face {
+    font-family: P-Nova;
+    src: url(../font-family/ProximaNova-Regular.woff2);
+}
+
