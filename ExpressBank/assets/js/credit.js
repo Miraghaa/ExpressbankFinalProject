@@ -25,7 +25,7 @@ img2.onclick = () =>{
 
 
 
-
+// boyuk ekran
 let card_btns = document.querySelectorAll('.credit-card .card-buttons button')
 
 for( let btn of card_btns){
@@ -52,3 +52,28 @@ for( let btn of card_btns){
 
 
 
+//kicik ekran
+let card_btns_tel = document.querySelectorAll('.card-buttons-tel button')
+
+for( let btntt of card_btns_tel){
+  btntt.onclick = () => {
+    let actvt = document.querySelector('.actives-tels')
+    actvt.classList.remove('actives-tels')
+    btntt.classList.add('actives-tels')
+  
+    let id = btntt.id
+    let div_ts = document.querySelectorAll('.credit-info-tel .credit-info1-tel')
+
+         for(let dv_ts of div_ts){
+           
+            if(dv_ts.id===id){
+                dv_ts.classList.remove('d-none')
+            }else{
+                dv_ts.classList.add('d-none')
+
+            }
+         }
+
+
+}
+}

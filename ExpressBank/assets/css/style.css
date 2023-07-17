@@ -4173,20 +4173,20 @@ footer .footer-footnav .foot-nav ul .foot-nav-l6 img {
     margin-top: 10px;
     color: #fff;
   }
-  .credit-main-tel .credit-card {
+  .credit-main-tel .credit-card-tel {
     overflow: hidden;
     background-color: #f5f5f5;
     width: 100%;
   }
-  .credit-main-tel .credit-card .card-head {
+  .credit-main-tel .credit-card-tel .card-head {
     padding-top: 25px;
   }
-  .credit-main-tel .credit-card .card-head .card-buttons {
+  .credit-main-tel .credit-card-tel .card-head .card-buttons-tel {
     width: 100%;
     display: flex;
     border-bottom: 1px solid #D7D8D6;
   }
-  .credit-main-tel .credit-card .card-head .card-buttons button {
+  .credit-main-tel .credit-card-tel .card-head .card-buttons-tel button {
     width: 100%;
     font-family: P-Nova;
     background-color: inherit;
@@ -4198,10 +4198,10 @@ footer .footer-footnav .foot-nav ul .foot-nav-l6 img {
     letter-spacing: 0.06em;
     font-size: 15px;
   }
-  .credit-main-tel .credit-card .card-head .card-buttons .active {
+  .credit-main-tel .credit-card-tel .card-head .card-buttons-tel .actives-tels {
     position: relative;
   }
-  .credit-main-tel .credit-card .card-head .card-buttons .active::before {
+  .credit-main-tel .credit-card-tel .card-head .card-buttons-tel .actives-tels::before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -4210,7 +4210,7 @@ footer .footer-footnav .foot-nav ul .foot-nav-l6 img {
     height: 1px;
     background-color: #000;
   }
-  .credit-main-tel .credit-card .credit-info .credit-info1 .card-alltxt {
+  .credit-main-tel .credit-card-tel .credit-info-tel .credit-info1-tel .card-alltxt {
     padding: 3px 25px 20px;
     background-color: #fff;
     border-radius: 5px;
@@ -4218,16 +4218,16 @@ footer .footer-footnav .foot-nav ul .foot-nav-l6 img {
     position: relative;
     margin-bottom: 20px;
   }
-  .credit-main-tel .credit-card .credit-info .credit-info1 .card-alltxt .alltxt-photo {
+  .credit-main-tel .credit-card-tel .credit-info-tel .credit-info1-tel .card-alltxt .alltxt-photo {
     width: 105%;
   }
-  .credit-main-tel .credit-card .credit-info .credit-info1 .card-alltxt .alltxt-photo img {
+  .credit-main-tel .credit-card-tel .credit-info-tel .credit-info1-tel .card-alltxt .alltxt-photo img {
     width: 100%;
   }
-  .credit-main-tel .credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text {
+  .credit-main-tel .credit-card-tel .credit-info-tel .credit-info1-tel .card-alltxt .alltxt-text {
     font-family: P-Nova;
   }
-  .credit-main-tel .credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text h4 {
+  .credit-main-tel .credit-card-tel .credit-info-tel .credit-info1-tel .card-alltxt .alltxt-text h4 {
     font-style: normal;
     font-size: 32px;
     line-height: 38px;
@@ -4236,7 +4236,7 @@ footer .footer-footnav .foot-nav ul .foot-nav-l6 img {
     margin-top: 20px;
     margin-bottom: 18px;
   }
-  .credit-main-tel .credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text p {
+  .credit-main-tel .credit-card-tel .credit-info-tel .credit-info1-tel .card-alltxt .alltxt-text p {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -4247,15 +4247,15 @@ footer .footer-footnav .foot-nav ul .foot-nav-l6 img {
     color: #5F6369;
     margin-bottom: 22px;
   }
-  .credit-main-tel .credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text .card-phase {
+  .credit-main-tel .credit-card-tel .credit-info-tel .credit-info1-tel .card-alltxt .alltxt-text .card-phase {
     overflow-x: scroll;
   }
-  .credit-main-tel .credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text .card-phase ul {
+  .credit-main-tel .credit-card-tel .credit-info-tel .credit-info1-tel .card-alltxt .alltxt-text .card-phase ul {
     width: 120%;
     display: flex;
     position: relative;
   }
-  .credit-main-tel .credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text .card-phase ul li h5 {
+  .credit-main-tel .credit-card-tel .credit-info-tel .credit-info1-tel .card-alltxt .alltxt-text .card-phase ul li h5 {
     text-align: center;
     font-weight: 600;
     font-size: 14px;
@@ -4265,7 +4265,7 @@ footer .footer-footnav .foot-nav ul .foot-nav-l6 img {
     letter-spacing: 0.06em;
     color: #231F20;
   }
-  .credit-main-tel .credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text .card-phase ul li p {
+  .credit-main-tel .credit-card-tel .credit-info-tel .credit-info1-tel .card-alltxt .alltxt-text .card-phase ul li p {
     text-align: center;
     font-weight: normal;
     font-size: 12px;
@@ -4274,10 +4274,10 @@ footer .footer-footnav .foot-nav ul .foot-nav-l6 img {
     color: #5F6369;
     margin-bottom: 24px;
   }
-  .credit-main-tel .credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text .card-phase ul .short-line {
+  .credit-main-tel .credit-card-tel .credit-info-tel .credit-info1-tel .card-alltxt .alltxt-text .card-phase ul .short-line {
     padding: 0px 20px;
   }
-  .credit-main-tel .credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text .card-phase ul .short-line::before {
+  .credit-main-tel .credit-card-tel .credit-info-tel .credit-info1-tel .card-alltxt .alltxt-text .card-phase ul .short-line::before {
     content: "";
     position: absolute;
     top: 7px;
@@ -4285,17 +4285,17 @@ footer .footer-footnav .foot-nav ul .foot-nav-l6 img {
     width: 1px;
     background-color: #a4a4a4;
   }
-  .credit-main-tel .credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text .as {
+  .credit-main-tel .credit-card-tel .credit-info-tel .credit-info1-tel .card-alltxt .alltxt-text .as {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
   }
-  .credit-main-tel .credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text .as .card-a2, .credit-main-tel .credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text .as .card-a3 {
+  .credit-main-tel .credit-card-tel .credit-info-tel .credit-info1-tel .card-alltxt .alltxt-text .as .card-a2, .credit-main-tel .credit-card-tel .credit-info-tel .credit-info1-tel .card-alltxt .alltxt-text .as .card-a3 {
     width: 100%;
     margin-top: 20px;
     margin-left: -30px;
   }
-  .credit-main-tel .credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text .as .card-a2 a, .credit-main-tel .credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text .as .card-a3 a {
+  .credit-main-tel .credit-card-tel .credit-info-tel .credit-info1-tel .card-alltxt .alltxt-text .as .card-a2 a, .credit-main-tel .credit-card-tel .credit-info-tel .credit-info1-tel .card-alltxt .alltxt-text .as .card-a3 a {
     display: inline-block;
     width: 110%;
     text-align: center;
@@ -4311,12 +4311,12 @@ footer .footer-footnav .foot-nav ul .foot-nav-l6 img {
     padding: 16px 0px;
     border-radius: 8px;
   }
-  .credit-main-tel .credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text .as .card-a1 {
+  .credit-main-tel .credit-card-tel .credit-info-tel .credit-info1-tel .card-alltxt .alltxt-text .as .card-a1 {
     width: 100%;
     margin-top: 20px;
     margin-left: -30px;
   }
-  .credit-main-tel .credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text .as .card-a1 a {
+  .credit-main-tel .credit-card-tel .credit-info-tel .credit-info1-tel .card-alltxt .alltxt-text .as .card-a1 a {
     display: inline-block;
     width: 110%;
     text-align: center;
@@ -4331,7 +4331,7 @@ footer .footer-footnav .foot-nav ul .foot-nav-l6 img {
     background-color: #F9C20A;
     border-radius: 10px;
   }
-  .credit-main-tel .credit-card .credit-info .credit-info1 .card-alltxt .alltxt-text .as .card-a1 a:hover {
+  .credit-main-tel .credit-card-tel .credit-info-tel .credit-info1-tel .card-alltxt .alltxt-text .as .card-a1 a:hover {
     background-color: #F58220;
   }
   .credit-main-tel .credit-foot {
@@ -4511,11 +4511,11 @@ footer .footer-footnav .foot-nav ul .foot-nav-l6 img {
     padding-top: 25px;
     position: relative;
   }
-  .kart-main-tel .kart-card .card-head .card-buttons {
+  .kart-main-tel .kart-card .card-head .card-buttonsda {
     display: flex;
     border-bottom: 1px solid #D7D8D6;
   }
-  .kart-main-tel .kart-card .card-head .card-buttons button {
+  .kart-main-tel .kart-card .card-head .card-buttonsda button {
     width: 30%;
     font-family: P-Nova;
     background-color: inherit;
@@ -4527,10 +4527,10 @@ footer .footer-footnav .foot-nav ul .foot-nav-l6 img {
     letter-spacing: 0.06em;
     font-size: 15px;
   }
-  .kart-main-tel .kart-card .card-head .card-buttons .active {
+  .kart-main-tel .kart-card .card-head .card-buttonsda .activeda {
     position: relative;
   }
-  .kart-main-tel .kart-card .card-head .card-buttons .active::before {
+  .kart-main-tel .kart-card .card-head .card-buttonsda .activeda::before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -4567,7 +4567,7 @@ footer .footer-footnav .foot-nav ul .foot-nav-l6 img {
     background-color: black;
     padding: 4px 8px;
   }
-  .kart-main-tel .kart-card .kart-info .kart-info1 .card-alltxt {
+  .kart-main-tel .kart-card .kart-infoda .kart-info1da .card-alltxt {
     padding: 3px 25px 20px;
     background-color: #fff;
     border-radius: 5px;
@@ -4575,16 +4575,16 @@ footer .footer-footnav .foot-nav ul .foot-nav-l6 img {
     position: relative;
     margin-bottom: 20px;
   }
-  .kart-main-tel .kart-card .kart-info .kart-info1 .card-alltxt .alltxt-photo {
+  .kart-main-tel .kart-card .kart-infoda .kart-info1da .card-alltxt .alltxt-photo {
     width: 105%;
   }
-  .kart-main-tel .kart-card .kart-info .kart-info1 .card-alltxt .alltxt-photo img {
+  .kart-main-tel .kart-card .kart-infoda .kart-info1da .card-alltxt .alltxt-photo img {
     width: 100%;
   }
-  .kart-main-tel .kart-card .kart-info .kart-info1 .card-alltxt .alltxt-text {
+  .kart-main-tel .kart-card .kart-infoda .kart-info1da .card-alltxt .alltxt-text {
     font-family: P-Nova;
   }
-  .kart-main-tel .kart-card .kart-info .kart-info1 .card-alltxt .alltxt-text h4 {
+  .kart-main-tel .kart-card .kart-infoda .kart-info1da .card-alltxt .alltxt-text h4 {
     font-style: normal;
     font-size: 32px;
     line-height: 38px;
@@ -4593,7 +4593,7 @@ footer .footer-footnav .foot-nav ul .foot-nav-l6 img {
     margin-top: 20px;
     margin-bottom: 18px;
   }
-  .kart-main-tel .kart-card .kart-info .kart-info1 .card-alltxt .alltxt-text p {
+  .kart-main-tel .kart-card .kart-infoda .kart-info1da .card-alltxt .alltxt-text p {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -4604,15 +4604,15 @@ footer .footer-footnav .foot-nav ul .foot-nav-l6 img {
     color: #5F6369;
     margin-bottom: 22px;
   }
-  .kart-main-tel .kart-card .kart-info .kart-info1 .card-alltxt .alltxt-text .card-phase {
+  .kart-main-tel .kart-card .kart-infoda .kart-info1da .card-alltxt .alltxt-text .card-phase {
     overflow-x: scroll;
   }
-  .kart-main-tel .kart-card .kart-info .kart-info1 .card-alltxt .alltxt-text .card-phase ul {
+  .kart-main-tel .kart-card .kart-infoda .kart-info1da .card-alltxt .alltxt-text .card-phase ul {
     width: 120%;
     display: flex;
     position: relative;
   }
-  .kart-main-tel .kart-card .kart-info .kart-info1 .card-alltxt .alltxt-text .card-phase ul li h5 {
+  .kart-main-tel .kart-card .kart-infoda .kart-info1da .card-alltxt .alltxt-text .card-phase ul li h5 {
     text-align: center;
     font-weight: 600;
     font-size: 14px;
@@ -4622,7 +4622,7 @@ footer .footer-footnav .foot-nav ul .foot-nav-l6 img {
     letter-spacing: 0.06em;
     color: #231F20;
   }
-  .kart-main-tel .kart-card .kart-info .kart-info1 .card-alltxt .alltxt-text .card-phase ul li p {
+  .kart-main-tel .kart-card .kart-infoda .kart-info1da .card-alltxt .alltxt-text .card-phase ul li p {
     text-align: center;
     font-weight: normal;
     font-size: 12px;
@@ -4631,10 +4631,10 @@ footer .footer-footnav .foot-nav ul .foot-nav-l6 img {
     color: #5F6369;
     margin-bottom: 24px;
   }
-  .kart-main-tel .kart-card .kart-info .kart-info1 .card-alltxt .alltxt-text .card-phase ul .short-line {
+  .kart-main-tel .kart-card .kart-infoda .kart-info1da .card-alltxt .alltxt-text .card-phase ul .short-line {
     padding: 0px 20px;
   }
-  .kart-main-tel .kart-card .kart-info .kart-info1 .card-alltxt .alltxt-text .card-phase ul .short-line::before {
+  .kart-main-tel .kart-card .kart-infoda .kart-info1da .card-alltxt .alltxt-text .card-phase ul .short-line::before {
     content: "";
     position: absolute;
     top: 7px;
@@ -4642,17 +4642,17 @@ footer .footer-footnav .foot-nav ul .foot-nav-l6 img {
     width: 1px;
     background-color: #a4a4a4;
   }
-  .kart-main-tel .kart-card .kart-info .kart-info1 .card-alltxt .alltxt-text .as {
+  .kart-main-tel .kart-card .kart-infoda .kart-info1da .card-alltxt .alltxt-text .as {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
   }
-  .kart-main-tel .kart-card .kart-info .kart-info1 .card-alltxt .alltxt-text .as .card-a2, .kart-main-tel .kart-card .kart-info .kart-info1 .card-alltxt .alltxt-text .as .card-a3 {
+  .kart-main-tel .kart-card .kart-infoda .kart-info1da .card-alltxt .alltxt-text .as .card-a2, .kart-main-tel .kart-card .kart-infoda .kart-info1da .card-alltxt .alltxt-text .as .card-a3 {
     width: 100%;
     margin-top: 20px;
     margin-left: -30px;
   }
-  .kart-main-tel .kart-card .kart-info .kart-info1 .card-alltxt .alltxt-text .as .card-a2 a, .kart-main-tel .kart-card .kart-info .kart-info1 .card-alltxt .alltxt-text .as .card-a3 a {
+  .kart-main-tel .kart-card .kart-infoda .kart-info1da .card-alltxt .alltxt-text .as .card-a2 a, .kart-main-tel .kart-card .kart-infoda .kart-info1da .card-alltxt .alltxt-text .as .card-a3 a {
     display: inline-block;
     width: 110%;
     text-align: center;
@@ -4668,12 +4668,12 @@ footer .footer-footnav .foot-nav ul .foot-nav-l6 img {
     padding: 16px 0px;
     border-radius: 8px;
   }
-  .kart-main-tel .kart-card .kart-info .kart-info1 .card-alltxt .alltxt-text .as .card-a1 {
+  .kart-main-tel .kart-card .kart-infoda .kart-info1da .card-alltxt .alltxt-text .as .card-a1 {
     width: 100%;
     margin-top: 20px;
     margin-left: -30px;
   }
-  .kart-main-tel .kart-card .kart-info .kart-info1 .card-alltxt .alltxt-text .as .card-a1 a {
+  .kart-main-tel .kart-card .kart-infoda .kart-info1da .card-alltxt .alltxt-text .as .card-a1 a {
     display: inline-block;
     width: 110%;
     margin-top: 10px !important;
@@ -4689,7 +4689,7 @@ footer .footer-footnav .foot-nav ul .foot-nav-l6 img {
     background-color: #F9C20A;
     border-radius: 10px;
   }
-  .kart-main-tel .kart-card .kart-info .kart-info1 .card-alltxt .alltxt-text .as .card-a1 a:hover {
+  .kart-main-tel .kart-card .kart-infoda .kart-info1da .card-alltxt .alltxt-text .as .card-a1 a:hover {
     background-color: #F58220;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -1,4 +1,4 @@
-
+// buyuk ekran 
 
 let kart_btns = document.querySelectorAll('.kart-card .card-buttons button')
 
@@ -23,6 +23,33 @@ for( let btn of kart_btns){
          }
   }
 }
+
+// kicik ekran
+
+let kart_btns_tel = document.querySelectorAll('.card-buttonsda button')
+
+for( let btnda of kart_btns_tel){
+  btnda.onclick = () => {
+    let actvda = document.querySelector('.activeda')
+    actvda.classList.remove('activeda')
+    btnda.classList.add('activeda')
+
+    let id = btnda.id
+    let divda = document.querySelectorAll('.kart-infoda .kart-info1da')
+
+    for(let dvda of divda){
+           
+      if(dvda.id===id){
+          dvda.classList.remove('d-none')
+      }else{
+          dvda.classList.add('d-none')
+
+      }
+   }
+  }
+}
+
+
 
 if(localStorage.getItem('karts') === null){
     localStorage.setItem('karts',JSON.stringify([]))

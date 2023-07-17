@@ -4340,13 +4340,13 @@ footer{
             }
         }
     }
-    .credit-card{
+    .credit-card-tel{
         overflow: hidden;
         background-color: #f5f5f5;
         width: 100%;
         .card-head{
             padding-top: 25px;
-            .card-buttons{
+            .card-buttons-tel{
                 width: 100%;
                 display: flex;
                 border-bottom: 1px solid #D7D8D6;
@@ -4362,7 +4362,7 @@ footer{
                     letter-spacing: 0.06em;
                     font-size: 15px;
                 }
-                .active{
+                .actives-tels{
                     position: relative;
                     &::before{
                         content: '';
@@ -4376,8 +4376,8 @@ footer{
                 }
             }
         }
-        .credit-info{
-            .credit-info1{
+        .credit-info-tel{
+            .credit-info1-tel{
                 .card-alltxt{
                     padding: 3px 25px 20px;
                     background-color: #fff;
@@ -4692,7 +4692,7 @@ footer{
         .card-head{
             padding-top: 25px;
             position: relative;
-            .card-buttons{
+            .card-buttonsda{
                 display: flex;
                 border-bottom: 1px solid #D7D8D6;
                 button{
@@ -4707,7 +4707,7 @@ footer{
                     letter-spacing: 0.06em;
                     font-size: 15px;
                 }
-                .active{
+                .activeda{
                     position: relative;
                     &::before{
                         content: '';
@@ -4752,8 +4752,8 @@ footer{
                 }
             }
         }
-        .kart-info{
-            .kart-info1{
+        .kart-infoda{
+            .kart-info1da{
                 .card-alltxt{
                     padding: 3px 25px 20px;
                     background-color: #fff;
