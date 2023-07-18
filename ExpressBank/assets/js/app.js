@@ -307,7 +307,7 @@ function getusers() {
         <th>${((1/data.conversion_rates.EUR)-0.0197).toFixed(4)}</th>
         <th>${((1/data.conversion_rates.RUB)-0.0005).toFixed(4)}</th>
         <th>${((1/data.conversion_rates.GBP)-0.0343).toFixed(4)}</th>
-        <th>${((1/data.conversion_rates.TRY)-0.065).toFixed(4).slice(1)}</th>
+        <th>${((0/data.conversion_rates.TRY)+0.0000).toFixed(4)}</th>
        </tr>
        <tr>
         <th class="exc-table-txt2">Satış</th>
@@ -315,7 +315,7 @@ function getusers() {
         <th>${((1/data.conversion_rates.EUR)+0.0113).toFixed(4)}</th>
         <th>${((1/data.conversion_rates.RUB)+0.0008).toFixed(4)}</th>
         <th>${((1/data.conversion_rates.GBP)+0.0137).toFixed(4)}</th>
-        <th>${((1/data.conversion_rates.TRY)-0.0650).toFixed(4).slice(1)}</th>
+        <th>${((0/data.conversion_rates.TRY)+0.0000).toFixed(4)}</th>
        </tr>
       `
       let exc3 = `
@@ -333,7 +333,7 @@ function getusers() {
         <th>${((1/data.conversion_rates.EUR)-0.0247).toFixed(4)}</th>
         <th>${((0/data.conversion_rates.RUB)+0.0000).toFixed(4)}</th>
         <th>${((1/data.conversion_rates.GBP)-0.0393).toFixed(4)}</th>
-        <th>${((1/data.conversion_rates.TRY)-0.065).toFixed(4).slice(1)}</th>
+        <th>${((0/data.conversion_rates.TRY)+0.0000).toFixed(4)}</th>
        </tr>
        <tr>
         <th class="exc-table-txt2">Satış</th>
@@ -341,7 +341,7 @@ function getusers() {
         <th>${((1/data.conversion_rates.EUR)+0.0163).toFixed(4)}</th>
         <th>${((0/data.conversion_rates.RUB)+0.0000).toFixed(4)}</th>
         <th>${((1/data.conversion_rates.GBP)+0.0187).toFixed(4)}</th>
-        <th>${((1/data.conversion_rates.TRY)-0.0650).toFixed(4).slice(1)}</th>
+        <th>${((0/data.conversion_rates.TRY)+0.0000).toFixed(4)}</th>
        </tr>
       `
       document.querySelector('.exc-table tbody').innerHTML=exc
